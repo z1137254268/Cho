@@ -2,13 +2,13 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH=cl \
-    UUID=10974d1a-cbd6-4b6f-db1d-38d78b3fb109 \
-    WEB_DOMAIN=cho.kirito.ninja \
-    ARGO_DOMAIN=cho-ws.kirito.ninja \
-    SSH_DOMAIN=cho-ssh.kirito.ninja \
+    UUID= \
+    WEB_DOMAIN= \
+    ARGO_DOMAIN= \
+    SSH_DOMAIN= \
     ARGO_AUTH={"AccountTag":"11a8bae7c3ef92c9b549262fde84a2eb","TunnelSecret":"Zt/1mDURSr2NkD1/9x+jsbbTNcWXnd8W7LafwDbnoaU=","TunnelID":"1233f2ab-1e6b-4135-8b58-b2ef641cdf91"} \
     WEB_USERNAME=neu \
-    WEB_PASSWORD=114514
+    WEB_PASSWORD=
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
